@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Qazi Fahim} % Your given name
+\familyname{Farhan} % Your family name
+
+% All information in this block is optional, comment out any lines you don't need
+% \title{Curriculum Vitae}
+%\address{44/F/8-A,3rd floor B, Panthapath}{Dhaka 1215}
+%\mobile{+8801521517207}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+%\email{fahim.farhan@outlook.com}
+%\homepage{https://github.com/fahimfarhan}{github.com/fahimfarhan} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+% \photo[70pt][0.4pt]{me} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"Nothing is true, everything is permitted" - Assassin's creed}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Personal Information}
+\cvitem{Email}{fahim.farhan@outlook.com}
+\cvitem{Mobile}{+8801521517207}
+\cvitem{Address}{44/F/8-A,3rd floor B, Panthapath, Dhaka 1215}
+
+\section{Education}
+\cventry{2015--2019}{B.Sc in Computer Science and Engineering(CSE)}{Bangladesh University of Engineering and Technology}{Dhaka}{\textit{CGPA 2.73/4.00}}{}  % arguments 3 to 6 can be left empty
+\cventry{2014}{H.S.C}{Notre Dame College}{Dhaka}{\textit{GPA 5.00/5.00}}{}
+\cventry{2012}{S.S.C}{Govt. Laboratory High School}{Dhaka}{\textit{GPA 5.00/5.00}}{}
+
+\section{Experience}
+\cventry{2019--present}{Software Engineer(Android)}{Ridmik Labs}{Dhaka}{\newline Currently working as an Android developer. 
+Major contributions: \newline 
+\textit{RidmikChat}: A social media and chat application \newline 
+\textit{Ridmik News}: A news app that aggregates and displays news. \newline 
+\textit{Ridmik Dictionary}: An offline dictionary android app. \newline
+\textit{Ridmik AccountKit}: An android login management library to handle login inside different Ridmik apps. 
+}{}
+
+\section{Skills}
+\cvitem{Programming Languages}{C, C++, Java, Kotlin, Python, SQL, LATEX, Flex, Bison, PHP, Javascript, C\#, Bash, Assembly 8086, MIPS } %{category 4}{XXX, YYY, ZZZ}
+\cvitem{Programming Frameworks}{Django, JavaFx, Android, Gradle, OpenGL, CodeIgniter, Bootstrap}%{category 5}{XXX, YYY, ZZZ}
+\cvitem{Operating System}{Debian 10 (testing), Linux Mint 19.1, Windows 10 }%{category 6}{XXX, YYY, ZZZ}
+\cvitem{Databases}{Oracle, MySQL, PostgreSQL, Orientdb, SQLite }
+\cvitem{Others}{Terminal, Git, Docker, Vim, Arduino Uno, Raspberry Pi, ATmega32}
+
+\section{Online Judge/Contests}
+% \cvitem{SnackDown 2019}{  \href{https://fahimfarhan.github.io/coding-creed-origins/certificates/fahimfarhan-SNCK19.pdf}{username: fahimfarhan, rank: 10364 (participation certificate link) } } 
+\cvitem{Codeforces}{ \href{http://codeforces.com/profile/fahimfarhan}{username: fahimfarhan, Maximum Rating 1370 (profile link)} } 
+\cvitem{CodeChef}{ \href{https://www.codechef.com/users/fahimfarhan}{username: fahimfarhan, Maximum Rating 1589 (profile link) }  }
+% \cvitem{vjudge}{ \href{https://vjudge.net/user/269707}{username: fahimfarhan (profile link) }  }
+\cvitem{Google Kick Start 2019}{  \href{https://fahimfarhan.github.io/coding-creed-origins/certificates/fahimfarhan-Summary-Certificate-Kick-Start-2019.pdf}{username: fahimfarhan , highest position 1866 (participation certificate link) } } 
+\cvitem{Facebook Hacker Cup}{ Qualification round ranking 1805 } 
+
+% \pagebreak
+
+\section{Thesis}
+\cvitem{Title}{\emph{Building Semantic Knowledge Graph using Twitter Data}}
+\cvitem{Supervisor}{Dr. Muhammad Mashroor Ali}
+\cvitem{Description}{In this thesis, we investigated how to build knowledge graph from 
+                a very limited data source like Tweets. As the research progressed, 
+                we faced some chalanges such as connecting external knowledge base, 
+                choosing tentative candidates and disambiguating urls using various heuristic functions. 
+                We have also used NLP tools (GATE developer) to analyze tweets and write necessary codes.
+    \href{https://github.com/fahimfarhan/KnowledgeGraph}{(github link)}
+ }
+
+% \section{Academic Major Projects}
+\section{Major Projects}
+
+\subsection{ \href{https://play.google.com/store/apps/details?id=ridmik.one&gl=US}{RidmikChat} }
+\cvitem{Language}{Kotlin, Java}
+\cvitem{Framework}{Android}
+\cvitem{Description}{ A social media and chat application. I hav worked on user profile page, news feed, image editor, video editor, fancy animations, etc features.
+\href{https://play.google.com/store/apps/details?id=ridmik.one&gl=US}{(Google Play Store link)} 
+}
+
+\subsection{ \href{https://play.google.com/store/apps/details?id=ridmik.words}{Ridmik Dictionary} }
+\cvitem{Language}{Kotlin, Java}
+\cvitem{Framework}{Android}
+\cvitem{Description}{ A dictionary application. I have implemented searching words, 
+displaying word categories, splash cards, study page, MCQ, showing advertisements etc features.
+\href{https://play.google.com/store/apps/details?id=ridmik.words}{(Google Play Store link)} 
+}
+
+\subsection{ \href{https://play.google.com/store/apps/details?id=ridmik.news}{Ridmik News} }
+\cvitem{Language}{Kotlin, Java}
+\cvitem{Framework}{Android}
+\cvitem{Description}{ A news application that aggregates, and displays news. I have worked on the app settings, and displaying advertisements in the news feed.
+\href{https://play.google.com/store/apps/details?id=ridmik.news}{(Google Play Store link)} 
+}
+
+
+\section{Major Academic or Personal Projects}
+
+\subsection{ \href{https://github.com/fahimfarhan/NewsApp}{NewsApp} }
+\cvitem{Language}{Kotlin, Java}
+\cvitem{Framework}{Android}
+\cvitem{Description}{A simple android news app showing pagination(offline support with network call), MVVM, retrofit, room,
+picasso, multiple rows in recyclerview, footer/loader etc. \href{https://github.com/fahimfarhan/NewsApp}{(github link)} }
+
+\subsection{ \href{https://github.com/fahimfarhan/SimpleVideoEditor}{SimpleVideoEditor} }
+\cvitem{Language}{ Java }
+\cvitem{Framework}{Android}
+\cvitem{Description}{A video editor written in Model-View-Presenter (MVP) pattern that can crop area, trim duration, apply filter. The crop is my implementation based on image cropping opensource projects since there is hardly 
+any project that clearly explains the crop mechanism. \href{https://github.com/fahimfarhan/SimpleVideoEditor}{(github link)} }
+
+\subsection{ \href{https://github.com/fahimfarhan/cancer-web-app}{cancer-web-app} }
+\cvitem{Language}{Python}
+\cvitem{Framework}{Django}
+\cvitem{Description}{A simple cancer patient management system. \href{https://github.com/fahimfarhan/cancer-web-app}{(github link)} }
+
+\subsection{ \href{https://github.com/fahimfarhan/rubics-cobe-solver}{rubics-cobe-solver} }
+\cvitem{Language}{Assembly 8086}
+\cvitem{Description}{An assembly 8086 code that can solve 2x2x2 rubics cube. \href{https://github.com/fahimfarhan/rubics-cobe-solver}{(github link)}  }
+
+\subsection{ \href{https://github.com/fahimfarhan/Compiler}{Compiler} }
+\cvitem{Language}{C, C++, Flex, Bison, Assembly 8086 }
+\cvitem{Description}{ A simple C Compiler that takes a source program, generates tokens, an AST, and generates a corresponging 
+ target program in Assembly x86. \href{https://github.com/fahimfarhan/Compiler}{(github link)} }
+
+\subsection{ \href{https://github.com/fahimfarhan/OrientDB}{Database Project} }
+\cvitem{Language}{Java, OrientDB database}
+\cvitem{Description}{ A project to experiment with the features of a NoSQL database named 
+        OrientDB using a Twitter dataset. \href{https://github.com/fahimfarhan/OrientDB}{(github link)}  }
+
+\subsection{ \href{https://github.com/fahimfarhan/Smart-Locker}{Smart Locker}  }
+\cvitem{Language}{C}
+\cvitem{Description}{ A hardware project with ATmega32 microcontroller that uses sensors detect burglar. It also comes with an alarm and a password management system.
+                        \href{https://github.com/fahimfarhan/Smart-Locker}{(github link)} }
+
+\subsection{ \href{https://github.com/fahimfarhan/FileExplorerFx}{FileExplorerFx} }
+\cvitem{Language}{ Java, JavaFx }
+\cvitem{Description}{A simple file explorer that can be used to view, navigate through folders, and open files 
+        in a computer. Currenctly works with Windows. \href{https://github.com/fahimfarhan/FileExplorerFx}{(github link)} 
+  }
+
+\subsection{ \href{https://github.com/fahimfarhan/Zaxon}{Zaxon} }
+\cvitem{Language}{C, C++ }
+\cvitem{Description}{A simple game where the player has to defeat an alien. \href{https://github.com/fahimfarhan/Zaxon}{(github link)} }
+
+% \subsection{ \href{https://github.com/fahimfarhan/CodeIgniter-Blog}{CodeIgniter-Blog} }
+% \cvitem{Language}{PHP, MySQL}
+% \cvitem{Framework}{CodeIgniter}
+% \cvitem{Description}{A simple basic blog where userss can log in and publish their thoughts. \href{https://github.com/fahimfarhan/CodeIgniter-Blog}{(github link)} }
+
+
+\section{References}
+\cvitem{}{Dr. Muhammad Masroor Ali}
+\cvitem{}{  Professor, Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka-1205, Bangladesh }  % arguments 3 to 6 can be left empty
+\cvitem{}{Phone: (880 2) 55167100 }
+\cvitem{}{Email: mmasroorali@cse.buet.ac.bd }
+\end{document}
+
+
+%% end of file `template.tex'.

@@ -6,3 +6,5 @@ Keep academic resume in this repository. There will be at least 2 versions, the 
 1. [dyrdbcztbgww](https://www.overleaf.com/articles/resume/dyrdbcztbgww)
 2. [robert-lynchs-cv](https://www.overleaf.com/articles/robert-lynchs-cv/rdghgrrzmczc)
 3. [europass-cv](https://www.overleaf.com/latex/templates/europass-cv/kpcsxfcfvxhx)
+4. [moderncv-cv-and-cover-letter](https://www.latextemplates.com/template/moderncv-cv-and-cover-letter)
+5. [My old cv link](https://github.com/fahimfarhan/resume)
