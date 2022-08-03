@@ -20,3 +20,7 @@ Look for the line
 ```
 
 , and and comment or uncomment it.
+
+## Add table
+
+Special thanks to [stackOverFlowAnswer](https://tex.stackexchange.com/a/461102/195209).
