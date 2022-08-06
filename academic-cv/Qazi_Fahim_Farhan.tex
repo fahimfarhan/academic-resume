@@ -24,14 +24,14 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 \moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
-\usepackage[scale=0.75]{geometry} % Reduce document margins
+\usepackage[scale=1, top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
@@ -106,7 +106,7 @@
 \cvitem{09/12/2021}{\textbf{Graduate Record Examination (GRE)}}
 \cvitem{}{
     \begin{tabular}{ p{92.5pt}p{92.5pt}p{92.5pt}p{92.5pt} }
-        \centering \textbf{Total}  & \centering \textbf{Quantitative reasoning} & \centering \textbf{Verbal reasoning} &  \textbf{Analytical Writing)} \\ 
+        \centering \textbf{Total}  & \centering \textbf{Quantitative reasoning} & \centering \textbf{Verbal reasoning} &  \textbf{Analytical Writing} \\ 
     \hline
     \centering 311 &  \centering 160 &  \centering 148  & \centering 3  \\ 
     \end{tabular}
@@ -124,25 +124,36 @@
 \section{Experience}
 \cvitem{2019--Present}{Software Engineer(Android), Ridmik Labs}
 
-\subsection{ \textbf{Professional projects} }
+% \subsection{ \textbf{Professional projects} }
+\cvitem{}{
+    \textbf{Professional projects done with Ridmik Labs} 
+}
 
-\cvitem{\href{https://play.google.com/store/apps/details?id=ridmik.one&gl=US}{RidmikChat}}{}
+\subsection{\href{https://play.google.com/store/apps/details?id=ridmik.one&gl=US}{RidmikChat}}
+% \cvitem{Name}{\href{https://play.google.com/store/apps/details?id=ridmik.one&gl=US}{RidmikChat}}
 \cvitem{Languages}{Kotlin, Java}
-\cvitem{Framework}{Android}
-\cvitem{Description}{A social media and chat application. I have worked on user profile page, news feed, image editor, video editor, fancy animations, etc features. \href{https://play.google.com/store/apps/details?id=ridmik.one&gl=US}{(Google Play Store link)}}
+% \cvitem{Framework}{Android}
+\cvitem{Description}{An android social media and chat application. I have worked on user profile page, news feed, image editor, video editor, fancy animations, etc features. \href{https://play.google.com/store/apps/details?id=ridmik.one&gl=US}{(Google Play Store link)}}
 
-\cvitem{\href{https://play.google.com/store/apps/details?id=ridmik.words}{Ridmik Dictionary}}{}
+\subsection{\href{https://play.google.com/store/apps/details?id=ridmik.words}{Ridmik Dictionary}}
+% \cvitem{Name}{\href{https://play.google.com/store/apps/details?id=ridmik.words}{Ridmik Dictionary}}
 \cvitem{Languages}{Kotlin, Java}
-\cvitem{Framework}{Android}
-\cvitem{Description}{A dictionary application. I have implemented searching words, 
+% \cvitem{Framework}{Android}
+\cvitem{Description}{An android dictionary application. I have implemented searching words, 
 displaying word categories, splash cards, study page, MCQ, showing advertisements etc features.
 \href{https://play.google.com/store/apps/details?id=ridmik.words}{(Google Play Store link)}}
 
-\cvitem{\href{https://play.google.com/store/apps/details?id=ridmik.news}{Ridmik News}}{}
+\subsection{\href{https://play.google.com/store/apps/details?id=ridmik.news}{Ridmik News}}
+% \cvitem{Name}{\href{https://play.google.com/store/apps/details?id=ridmik.news}{Ridmik News}}
 \cvitem{Language}{Kotlin, Java}
-\cvitem{Framework}{Android}
-\cvitem{Description}{A news application that aggregates, and displays news. I have worked on the app settings, and displaying advertisements in the news feed.
+% \cvitem{Framework}{Android}
+\cvitem{Description}{An android news application that aggregates, and displays news. I have worked on the app settings, and displaying advertisements in the news feed.
 \href{https://play.google.com/store/apps/details?id=ridmik.news}{(Google Play Store link)}}
+
+
+\section{Teaching Experience}
+\cvitem{Course Instructor}{ Made android app development videos on an educational platform named Interactive Cares. \href{https://play.google.com/store/apps/details?id=ridmik.news}{(Course link)} }
+\cvitem{Home tutor}{ Worked as a home tutor. I taught math, physics, and chemistry to high school students. }
 
 % \pagebreak
 
@@ -150,7 +161,7 @@ displaying word categories, splash cards, study page, MCQ, showing advertisement
 \cvitem{Title}{\emph{Building Semantic Knowledge Graph using Twitter Data}}
 \cvitem{Supervisor}{Dr. Muhammad Mashroor Ali}
 \cvitem{Description}{In this thesis, we investigated how to build knowledge graph from 
-                a very limited data source like Tweets. As the research progressed, 
+                a very limited data source like Tweets. As the thesis progressed, 
                 we faced some chalanges such as connecting external knowledge base, 
                 choosing tentative candidates and disambiguating urls using various heuristic functions. 
                 We have also used NLP tools (GATE developer) to analyze tweets and write necessary codes.
@@ -159,19 +170,19 @@ displaying word categories, splash cards, study page, MCQ, showing advertisement
 
 \section{Skills}
 \cvitem{Programming Languages}{C, C++, Java, Kotlin, Julia, SQL, \LaTeX , Flex, Bison, Python, PHP, Javascript, C\#, Bash, Assembly 8086, MIPS } %{category 4}{XXX, YYY, ZZZ}
-\cvitem{Programming Frameworks}{Django, JavaFx, Android, Gradle, OpenGL}%{category 5}{XXX, YYY, ZZZ}
-\cvitem{Operating System}{Debian 11 (testing), Linux Mint 20.3, Windows 11 }%{category 6}{XXX, YYY, ZZZ}
+\cvitem{Frameworks}{Django, JavaFx, Android, Gradle, OpenGL}%{category 5}{XXX, YYY, ZZZ}
+% \cvitem{Operating System}{Debian 11 (testing), Linux Mint 20.3, Windows 11 }%{category 6}{XXX, YYY, ZZZ}
 \cvitem{Databases}{Oracle, MySQL, PostgreSQL, OrientDB, SQLite }
 \cvitem{Others}{Terminal, Git, Vim, Arduino Uno, Raspberry Pi, ATmega32}
 
 \section{Online Judge/Contests}
 % \cvitem{SnackDown 2019}{  \href{https://fahimfarhan.github.io/coding-creed-origins/certificates/fahimfarhan-SNCK19.pdf}{username: fahimfarhan, rank: 10364 (participation certificate link) } } 
 \cvitem{Codeforces}{ \href{http://codeforces.com/profile/fahimfarhan}{username: fahimfarhan, Maximum Rating 1370 (profile link)} } 
-\cvitem{LeetCode}{ \href{https://leetcode.com/fahimfarhan/}(username: fahimfarhan) (profile link) }
+\cvitem{LeetCode}{ \href{https://leetcode.com/fahimfarhan/}{username: fahimfarhan (profile link)} }
 \cvitem{CodeChef}{ \href{https://www.codechef.com/users/fahimfarhan}{username: fahimfarhan, Maximum Rating 1589 (profile link) }  }
 % \cvitem{vjudge}{ \href{https://vjudge.net/user/269707}{username: fahimfarhan (profile link) }  }
 \cvitem{Google Kick Start 2019}{  \href{https://fahimfarhan.github.io/coding-creed-origins/certificates/fahimfarhan-Summary-Certificate-Kick-Start-2019.pdf}{username: fahimfarhan , highest position 1866 (participation certificate link) } } 
-\cvitem{Facebook Hacker Cup}{ Qualification round ranking 1805 }
+% \cvitem{Facebook Hacker Cup}{ Qualification round ranking 1805 }
 
 % \section{Academic Major Projects}
 
@@ -179,20 +190,19 @@ displaying word categories, splash cards, study page, MCQ, showing advertisement
 
 \subsection{ \href{https://github.com/fahimfarhan/NewsApp}{NewsApp} }
 \cvitem{Language}{Kotlin, Java}
-\cvitem{Framework}{Android}
-\cvitem{Description}{A simple android news app showing pagination(offline support with network call), MVVM, retrofit, room,
-picasso, multiple rows in recyclerview, footer/loader etc. \href{https://github.com/fahimfarhan/NewsApp}{(github link)} }
+% \cvitem{Framework}{Android}
+\cvitem{Description}{A simple android news app that demonstrates clean architecture. \href{https://github.com/fahimfarhan/NewsApp}{(github link)} }
 
 \subsection{ \href{https://github.com/fahimfarhan/SimpleVideoEditor}{SimpleVideoEditor} }
 \cvitem{Language}{ Java }
-\cvitem{Framework}{Android}
-\cvitem{Description}{A video editor written in Model-View-Presenter (MVP) pattern that can crop area, trim duration, apply filter. The crop is my implementation based on image cropping opensource projects since there is hardly 
-any project that clearly explains the crop mechanism. \href{https://github.com/fahimfarhan/SimpleVideoEditor}{(github link)} }
+% \cvitem{Framework}{Android}
+\cvitem{Description}{
+An android video editor app that performs basic operations like crop, trim duration, apply filter, etc. \href{https://github.com/fahimfarhan/SimpleVideoEditor}{(github link)} }
 
 \subsection{ \href{https://github.com/fahimfarhan/cancer-web-app}{cancer-web-app} }
 \cvitem{Language}{Python}
-\cvitem{Framework}{Django}
-\cvitem{Description}{A simple cancer patient management system. \href{https://github.com/fahimfarhan/cancer-web-app}{(github link)} }
+% \cvitem{Framework}{Django}
+\cvitem{Description}{A cancer patient management system made with Djando. \href{https://github.com/fahimfarhan/cancer-web-app}{(github link)} }
 
 \subsection{ \href{https://github.com/fahimfarhan/rubics-cobe-solver}{rubics-cobe-solver} }
 \cvitem{Language}{Assembly 8086}
@@ -200,24 +210,24 @@ any project that clearly explains the crop mechanism. \href{https://github.com/f
 
 \subsection{ \href{https://github.com/fahimfarhan/Compiler}{Compiler} }
 \cvitem{Language}{C, C++, Flex, Bison, Assembly 8086 }
-\cvitem{Description}{ A simple C Compiler that takes a source program, generates tokens, an AST, and generates a corresponging 
+\cvitem{Description}{ A simple C Compiler that takes a source program, creates tokens, an AST, and generates a corresponging 
  target program in Assembly x86. \href{https://github.com/fahimfarhan/Compiler}{(github link)} }
 
 \subsection{ \href{https://github.com/fahimfarhan/OrientDB}{Database Project} }
 \cvitem{Language}{Java, OrientDB database}
-\cvitem{Description}{ A project to experiment with the features of a NoSQL database named 
+\cvitem{Description}{ A project to experiment with a NoSQL database named 
         OrientDB using a Twitter dataset. \href{https://github.com/fahimfarhan/OrientDB}{(github link)}  }
 
-\subsection{ \href{https://github.com/fahimfarhan/Smart-Locker}{Smart Locker}  }
-\cvitem{Language}{C}
-\cvitem{Description}{ A hardware project with ATmega32 microcontroller that uses sensors detect burglar. It also comes with an alarm and a password management system.
-                        \href{https://github.com/fahimfarhan/Smart-Locker}{(github link)} }
+% \subsection{ \href{https://github.com/fahimfarhan/Smart-Locker}{Smart Locker}  }
+% \cvitem{Language}{C}
+% \cvitem{Description}{ A hardware project with ATmega32 microcontroller that uses sensors detect burglar. It also comes with an alarm and a password management system.
+%                         \href{https://github.com/fahimfarhan/Smart-Locker}{(github link)} }
 
-\subsection{ \href{https://github.com/fahimfarhan/FileExplorerFx}{FileExplorerFx} }
-\cvitem{Language}{ Java, JavaFx }
-\cvitem{Description}{A simple file explorer that can be used to view, navigate through folders, and open files 
-        in a computer. Currenctly works with Windows. \href{https://github.com/fahimfarhan/FileExplorerFx}{(github link)} 
-  }
+% \subsection{ \href{https://github.com/fahimfarhan/FileExplorerFx}{FileExplorerFx} }
+% \cvitem{Language}{ Java, JavaFx }
+% \cvitem{Description}{A simple file explorer that can be used to view, navigate through folders, and open files 
+%         in a computer. Currenctly works with Windows. \href{https://github.com/fahimfarhan/FileExplorerFx}{(github link)} 
+%   }
 
 \subsection{ \href{https://github.com/fahimfarhan/Zaxon}{Zaxon} }
 \cvitem{Language}{C, C++ }
@@ -231,7 +241,7 @@ any project that clearly explains the crop mechanism. \href{https://github.com/f
 
 \section{References}
 \cvitem{}{Dr. Muhammad Masroor Ali}
-\cvitem{}{  Professor, Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka-1205, Bangladesh }  % arguments 3 to 6 can be left empty
+\cvitem{}{Professor, Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka-1205, Bangladesh }  % arguments 3 to 6 can be left empty
 \cvitem{}{Phone: (880 2) 55167100 }
 \cvitem{}{Email: mmasroorali@cse.buet.ac.bd }
 \end{document}
